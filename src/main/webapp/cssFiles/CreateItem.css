@@ -1,0 +1,124 @@
+/* CSS Document */
+#cancelAcceptButtons{
+	width:700px;
+	height:40px;
+	margin-left:10px;
+	}
+#cancelButton{
+	background-color:#d30000;
+	color:#fff;
+	}
+#acceptButton{
+	background-color:#3acc6e;
+	color:#fff;
+	margin-left:480px;
+	}
+#topButtons{
+	width:700px;
+	height:60px;
+	float:left;
+	display:inherit;
+	margin-left:247px;
+	margin-top:30px;
+	}
+#text{
+	margin-top:8px;
+	font-size:14px;
+	float:left;
+	}
+#selectType{
+	width:100px;
+	padding:8px;
+	margin-left:20px;
+	color:#333;
+	float:left;
+	}
+#form{
+	width:700px;
+	height:680px;
+	float:left;
+	margin-top:30px;
+	margin-left:50px;
+	}
+#cancelAcceptButtons{
+	margin-left:10px;
+	width:700px;
+	height:40px;
+	}
+#textForm{
+	width:150px;
+	float:left;
+	margin-top:9px;
+	font-size:14px;
+	}
+#textArea{
+	padding:10px;
+	border:0px;
+	-webkit-border:0px;
+	-moz-border:0px;
+	-o-border:0px;
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	height:300px;
+	max-height:300px;
+	min-height:300px;
+	margin-left:20px;
+	color:#333;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 13px;
+	float:left;
+	}
+#textAreaMusic{
+	padding:10px;
+	border:0px;
+	-webkit-border:0px;
+	-moz-border:0px;
+	-o-border:0px;
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	height:160px;
+	max-height:160px;
+	min-height:160px;
+	margin-left:20px;
+	color:#333;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 13px;
+	float:left;	
+	}
+#textAreaMovie{
+	padding:10px;
+	border:0px;
+	-webkit-border:0px;
+	-moz-border:0px;
+	-o-border:0px;
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	height:138px;
+	max-height:138px;
+	min-height:138px;
+	margin-left:20px;
+	color:#333;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 13px;
+	float:left;	
+	}
+
+#barsForm{
+	padding:10px;
+	border:0px;
+	-webkit-border:0px;
+	-moz-border:0px;
+	-o-border:0px;
+	width:400px;
+	margin-left:20px;
+	color:#333;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 13px;
+	float:left;
+}
+#barsForm:hover, #barsForm:focus,#textArea:hover, #textArea:focus,
+#textAreaMovie:hover,#textAreaMovie:focus,
+#textAreaMusic:hover, #textAreaMusic:focus,
+#cancelButton:hover, #acceptButton:hover{
+	box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 23px;
+	}
+	

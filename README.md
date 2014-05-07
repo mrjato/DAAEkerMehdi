@@ -1,4 +1,4 @@
-DAAEkerMehdi
-============
+DAAExample
+==========
 
-Project for the DAA Subject
+Example application for the DAA Subject

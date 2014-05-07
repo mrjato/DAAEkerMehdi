@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <title>Search.com-Create An Item</title>
+    <!-- CSSLinks-->
+    <link rel="stylesheet" type="text/css" href="cssFiles/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="cssFiles/General.css"/>
+    <link rel="stylesheet" type="text/css" href="cssFiles/CreateItem.css"/>
+        
+    <!--JavaScriptsLinks-->
+    
+</head>
+
+<body id="body">
+	<!--LogoVigo And Text-->
+    <header id="header">
+        <a href="http://uvigo.es/" target="_blank" ><img id="imgVigo" src="images/Universidad-de-Vigo.jpg" width="230px" height="75px" alt="There was an error while a image was loaded. -Logo of Universidad de Vigo-" title="Click to go page of Universidad de Vigo."/></a>
+        <p id="SiteText">Share more, Learn and Enjoy More</p></header>
+    <!--SiteLogo-->
+    <p class="removeSpace"><a href="MainPage.html"><img id="imgSite" src="images/siteLogo.png" width="984px" height="100px" alt="There was an error while a image was loaded. - Logo of Search.com" title="Click to go main page."/></a></p>
+    
+    <!--Strip Under Sİte Logo-->
+	<div id="Strips">
+        <canvas id="StripUnderSiteLogo"></canvas>
+        <canvas id="BottomStrip"></canvas></div>
+    <!--Content-->
+    <div id="Content">
+    	<!--LeftMenu-->
+        <div id="leftContent">
+            <!--UserPicture-->
+            <div id="Picture">
+                <img id="UserPicture" src="images/DefaultPicture.png"/>
+                	<p id="Name">Name and Surname</p>
+            </div>
+            <!--MenuButtons-->
+            <nav id="leftMenu"><ul>
+                <li><a href="MyProfile.html">My Profile</a></li>
+                <li><a href="MyItems.html">My Items</a></li>
+                <li><a href="BorrowedItems.html">Barrowed Items</a></li>
+                <li><a href="SearchItem.html">Search</a></li>
+                <li><a href="MainPage-NotSigned.html">Sign Out</a></li>
+            </ul></nav>
+	    </div>
+        <!--RightContent-->
+        <div id="rightContent">
+        	<!--TopButtons-->
+            <div id="topButtons">
+            	<p id="text">Select A Type To Create:</p>
+                <select id="selectType" name="selectType" >
+                    <option value="Books">Books</option>
+                    <option value="Musics">Musics</option>
+                    <option value="Movies">Movies</option>
+                </select>
+            </div>
+            
+            <!--RIGHT CONTENT-->
+            <div id="rightContentForm">
+            <!--BookRightContentForm-->
+            <div id="bookFormContainer">
+                <!--Form-->
+                <div id="form">
+                	<p><label id="textForm">Title</label><input id="barsForm" type="text"></p>
+                	<p>&nbsp;</p>
+                	<p>&nbsp;</p>
+               	  <p>&nbsp;</p>
+                  <p><label id="textForm">Author</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Kind</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">ISBN</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Edition Language</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Release Date</label><input id="barsForm" type="date"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Description</label>
+                    <textarea name="textArea" id="textArea"></textarea>
+                  </p>
+              </div>
+
+
+                <!--Accept-CancelButtons-->
+                <div id="cancelAcceptButtons">
+                	<button id="cancelButton" name="cancelButton">Cancel</button>
+                    <button id="acceptButton" name="acceptButton">Accept</button>
+                </div>
+
+            </div>
+                
+            <!--MovieRightContentForm-->
+            <div id="movieFormContainer">
+                <!--Form-->
+                <div id="form">
+                	<p><label id="textForm">Title</label><input id="barsForm" type="text"></p>
+                	<p>&nbsp;</p>
+                	<p>&nbsp;</p>
+               	  <p>&nbsp;</p>
+                  <p><label id="textForm">Director</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Writer</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Genres</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Country</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Language</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Release Date</label><input id="barsForm" type="date"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Cast</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Runtime</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Description</label>
+                    <textarea name="textArea" id="textAreaMovie"></textarea>
+                  </p>
+              </div>
+              
+              <!--Accept-CancelButtons-->
+            <div id="cancelAcceptButtons">
+                <button id="cancelButton" name="cancelButton">Cancel</button>
+                <button id="acceptButton" name="acceptButton">Accept</button>
+            </div>
+	</div>
+
+            <!--MusicRightContentForm-->
+            <div id="musicFormContainer">
+                <!--Form-->
+                <div id="form">
+                	<p><label id="textForm">Album Name</label><input id="barsForm" type="text"></p>
+                	<p>&nbsp;</p>
+                	<p>&nbsp;</p>
+               	  <p>&nbsp;</p>
+                  <p><label id="textForm">Artist</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Genres</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Release Date</label><input id="barsForm" type="date"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Total RunTime</label><input id="barsForm" type="text"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><label id="textForm">Songs</label><textarea name="textAreaSongs" id="textAreaMusic" ></textarea></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p style="margin-top:30px;"><label id="textForm">Description</label>
+                    <textarea name="textArea" id="textAreaMusic"></textarea>
+                  </p> 
+              </div>
+              
+            <!--Accept-CancelButtons-->
+            <div id="cancelAcceptButtons">
+                <button id="cancelButton" name="cancelButton">Cancel</button>
+                <button id="acceptButton" name="acceptButton">Accept</button>
+            </div>
+	</div>
+    </div>
+    	</div>
+     </div>
+    <!--Footer-->
+    <footer id="footer">Copyright &copy; 2014</footer>
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#bookFormContainer').show();
+			$('#musicFormContainer').hide();
+			$('#movieFormContainer').hide();
+
+			$("#selectType").change(function() {
+				var selectedValue = $(this).find("option:selected").text();
+				
+				switch(selectedValue) {
+				case "Books":
+					$('#bookFormContainer').show();
+					$('#musicFormContainer').hide();
+					$('#movieFormContainer').hide();
+					break;
+				case "Musics":
+					$('#bookFormContainer').hide();
+					$('#musicFormContainer').show();
+					$('#movieFormContainer').hide();
+					break;
+				case "Movies":
+					$('#bookFormContainer').hide();
+					$('#musicFormContainer').hide();
+					$('#movieFormContainer').show();
+					break;
+				}
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* CSS Document */
+table{
+	float:left;
+	border-collapse:collapse;
+	}
+th,td{
+	border-top:1px solid #333;
+	border-bottom:1px solid #333;
+	border-right:1px solid #333;
+	border-collapse:collapse;
+	text-align:center;
+	color:#333;
+	}
+th{
+	background-color:#bbccde;
+	color:#000;
+	height:24px;
+	}
+	
+#resultTable{
+	width:700px;
+	height:710px;
+	float:left;
+	}	
+	
+#name{
+	font-size:14px;
+	width:325px;
+	}
+#type{
+	font-size:14px;
+	width:75px;
+	}
+#owner{
+	font-size:14px;
+	width:250px;
+	}
+#add{
+	font-size:14px;
+	width:50px;
+	border-right:0;
+	}
+#topButtons{
+	width:700px;
+	height:60px;
+	float:left;
+	display:inherit;
+	margin-left:27px;
+	margin-top:30px;
+	}
+
+#searchBar{
+	width:500px;
+	}
+#selectType{
+	width:100px;
+	padding:8px;
+	margin-left:20px;
+	color:#333;
+	}
+#nextPreviousButtons{
+	width:700px;
+	height:40px;
+	}
+#previousButton{
+	width:100px;
+	color:#333;
+	background:#fafafa;
+	border:0px;
+	padding:5px;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin-left:10px;
+	float:left;
+	}
+#nextButton{
+	width:100px;
+	color:#333;
+	background:#fafafa;
+	border:0px;
+	padding:5px;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	margin-left:480px;
+	float:left;
+	}
+	
+#nextButton:hover,#nextButton:focus, 
+#previousButton:hover, #previousButton:focus{
+	box-shadow:rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	}
+#addButton{
+	margin-top:5px;
+	margin-left:3px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width: 44px;
+	background-color:transparent;
+	background-image:url("../images/AddButton.png");
+	box-shadow:none;
+	}
+#addButton:hover{
+	background-image:url("../images/AddButtonHover.png");
+	background-color:transparent;
+	box-shadow:none;
+	}
+#addButton:focus{
+	background-image:url("../images/AddButtonClick.png");
+	background-color:transparent;
+	box-shadow:none;
+	}

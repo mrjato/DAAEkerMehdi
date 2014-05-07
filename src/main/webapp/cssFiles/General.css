@@ -1,0 +1,187 @@
+/* CSS Document */
+body{
+	background-color:#f0f0f0;
+	color:#000;
+	font-size:12px;
+	margin:0 auto;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:1.5;
+	text-align:left;
+	}
+a{
+	text-decoration:none;
+	}
+a:link, a:visited{
+	}	
+a:hover, a:active {
+	}
+button{
+	width:100px;
+	color:#333;
+	background:#fafafa;
+	border:0px;
+	padding:5px;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	float:left;
+	}
+button:hover,button:focus{
+	box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 10px;
+	}
+.removeSpace{
+	line-height:0;
+	}
+.bars{
+	padding:10px;
+	border:0px;
+	-webkit-border:0px;
+	-moz-border:0px;
+	-o-border:0px;
+	width:200px;
+	margin-left:20px;
+	color:#333;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 13px;
+	}
+.bars:hover, .bars:focus{
+	box-shadow:rgba(0, 0, 0, 0.4) 0px 0px 23px;
+	}	
+
+
+#body{
+	width:984px;
+	margin:0 auto;
+	clear:both;
+	}
+	
+#header{
+	width:984px
+	height:auto;
+	float:left;
+	display:inline;
+	}
+#imgVigo{
+	border:none;
+	float:left;
+	
+	}
+#header nav{
+
+	}
+#header nav ul{
+	list-style:none;
+	margin:0;
+	}
+#header nav ul li{
+	display:inline;
+	}
+#SiteText{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#333;
+	width:984px;
+	height:25px;
+	text-align:right;
+	margin-top:47px;
+	}
+#Strips{
+	display:inline;
+	}
+#StripUnderSiteLogo{
+	width:984px;
+	height:5px;
+	float:left;
+	background-color:#0e4195;
+	
+	}
+#BottomStrip{
+	width:984px;
+	height:3px;
+	float:left;
+	background-color:#FFF;
+}
+
+#Content{
+	}
+#leftContent{
+	background-color:#6699cc;
+	width:230px;
+	height:880px;
+	float:left;
+	}
+#leftMenu ul{
+	list-style:none;
+	margin:0 auto;
+	}	
+
+#leftMenu ul li{
+	width:210px;
+	float:right;
+	margin-top:20px;
+	}
+#leftMenu a:link, #leftMenu a:visited{
+	color:#FFF;
+	background-color:#333;
+	height:20px;
+	display:block;
+	padding:20px 25px;
+	border-radius:3px 0px 0px 3px;
+	-moz-border-radius:3px 0px 0px 3px;
+	-webkit-border-radius:3px 0px 0px 3px;
+	}
+#leftMenu a:hover,#left .active a:visited{
+	background-color:#555;
+	text-shadow:none;
+	}
+#leftMenu .active a:link,#leftMenu .active a:visited{
+	background-color:#f0f0f0;
+	color:#333;
+	}
+#leftMenu a:active{
+	background-color:#CCC;
+	color:#333;
+	}
+#Picture{
+	width:180px;
+	height:250px;	
+	background-color:#333;
+	margin: 35px 25px 35px 25px;
+	float:left;
+	}
+#UserPicture{
+	float:left;
+	margin-left:15px;
+	margin-top:20.5px;
+	border:1px solid #FFF;
+	}
+#Name{
+	width:180px;
+	height:50px;
+	font-size:16px;
+	color:#FFF;
+	float:left;
+	margin-top:25px;
+	text-align:center;
+	}
+#rightContent{
+	width:754px;
+	height:880px;
+	float:left;
+	}
+#footer{
+	width:984px;
+	float:left;
+	background-color:#333;
+	text-align:center;
+	color:#FFF;	
+	}
+#rightContentForm{
+	width:700px;
+	height:750px;
+	margin-top:10px;
+	margin-left:27px; 
+	border:1px solid #333;
+	background:linear-gradient(#e9e9e9 5%,#FcFcFc,#e9e9e9 95%);
+	float:left;
+	display:inline;
+	}
+
+	
